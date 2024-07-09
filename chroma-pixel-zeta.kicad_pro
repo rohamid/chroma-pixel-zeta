@@ -984,10 +984,6 @@
       "MCU"
     ],
     [
-      "9bd964eb-5525-47c4-8570-31e45a5f56ec",
-      "MEMORY"
-    ],
-    [
       "99abf84f-89dd-4209-b43f-cdbcbe391aaa",
       "LCD"
     ],
@@ -997,7 +993,27 @@
     ],
     [
       "7db45bec-c9d4-4a8f-b190-415f0c2fea62",
-      "Audio"
+      "AUDIO"
+    ],
+    [
+      "cd71320a-abb7-471c-a876-9c8871ed0000",
+      "MEMORY FLASH"
+    ],
+    [
+      "8d56494a-5386-4d50-bc67-c699075d3194",
+      "MEMORY SD CARD"
+    ],
+    [
+      "6094c55f-5371-4ed7-9f7d-eb6acf0326b5",
+      "MEMORY EEPROM"
+    ],
+    [
+      "b5f70f33-fd9e-4039-a725-1bb5dac35287",
+      "DCMI"
+    ],
+    [
+      "fc2110e3-2569-4734-9eae-868ff4b14660",
+      "MEMORY SDRAM"
     ]
   ],
   "text_variables": {}

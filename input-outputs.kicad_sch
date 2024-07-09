@@ -2200,10 +2200,6 @@
 		(uuid "5732ea82-7349-4fa1-a547-25fe6d2f60e4")
 	)
 	(no_connect
-		(at 57.15 149.86)
-		(uuid "7c73a045-cee4-4edf-8d75-318c0c226b2c")
-	)
-	(no_connect
 		(at 44.45 152.4)
 		(uuid "a1d61cdf-d780-4b9b-ad6b-8af62a3443d6")
 	)
@@ -2223,7 +2219,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 157.48) (xy 69.85 157.48)
+			(xy 57.15 157.48) (xy 60.96 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2389,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 144.78) (xy 69.85 144.78)
+			(xy 57.15 144.78) (xy 60.96 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2423,7 +2419,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 154.94) (xy 69.85 154.94)
+			(xy 57.15 154.94) (xy 60.96 154.94)
 		)
 		(stroke
 			(width 0)
@@ -2433,7 +2429,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 149.86) (xy 43.18 149.86)
+			(xy 40.64 149.86) (xy 43.18 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2463,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 157.48) (xy 44.45 157.48)
+			(xy 38.1 157.48) (xy 44.45 157.48)
 		)
 		(stroke
 			(width 0)
@@ -2480,6 +2476,16 @@
 			(type default)
 		)
 		(uuid "be46197f-38e8-448c-9df7-6a001f564526")
+	)
+	(wire
+		(pts
+			(xy 57.15 149.86) (xy 60.96 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0fbf92b-3b3b-47c4-a7dc-8b4abf1b5adc")
 	)
 	(wire
 		(pts
@@ -2503,7 +2509,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 142.24) (xy 69.85 142.24)
+			(xy 57.15 142.24) (xy 60.96 142.24)
 		)
 		(stroke
 			(width 0)
@@ -2543,7 +2549,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 147.32) (xy 69.85 147.32)
+			(xy 57.15 147.32) (xy 60.96 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2581,17 +2587,6 @@
 		)
 		(uuid "fd599543-8cac-4e84-9ec0-ac3f208a4c68")
 	)
-	(label "SWCLK"
-		(at 69.85 147.32 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "055c1e69-1e53-4060-8bd3-051f66f4ab0c")
-	)
 	(label "STEMMA_SCL"
 		(at 72.39 34.29 0)
 		(fields_autoplaced yes)
@@ -2625,28 +2620,6 @@
 		)
 		(uuid "62333eb0-3977-449f-bb38-0894ff2f4541")
 	)
-	(label "SWDIO"
-		(at 69.85 144.78 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "84bdd4e5-09f0-4434-9513-44d8d9885715")
-	)
-	(label "NRST"
-		(at 69.85 154.94 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8b18e52f-6799-4880-be33-7cc295af085c")
-	)
 	(label "STEMMA_SDA"
 		(at 72.39 36.83 0)
 		(fields_autoplaced yes)
@@ -2658,27 +2631,17 @@
 		)
 		(uuid "9b9bc3ca-828a-4a83-8c08-62e78fd1e54e")
 	)
-	(label "USART1_RX"
-		(at 30.48 157.48 0)
+	(hierarchical_label "DBG_SWO"
+		(shape input)
+		(at 60.96 149.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "bb9a5c13-3813-4500-89cb-1c9d59aca0db")
-	)
-	(label "USART1_TX"
-		(at 69.85 157.48 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ee498af5-4fe6-424f-b139-c6913d318a63")
+		(uuid "1fcd075c-aaf4-4aee-bf39-552eaaa0d6dd")
 	)
 	(hierarchical_label "USART2_TX"
 		(shape input)
@@ -2693,7 +2656,7 @@
 		(uuid "24242918-0399-46c0-951a-70878408cb1a")
 	)
 	(hierarchical_label "STEMMA_SCL"
-		(shape bidirectional)
+		(shape input)
 		(at 72.39 34.29 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2704,9 +2667,9 @@
 		)
 		(uuid "31b3c023-089a-4a86-b93a-32b19d83537c")
 	)
-	(hierarchical_label "SWDIO"
+	(hierarchical_label "DBG_SWDIO"
 		(shape bidirectional)
-		(at 69.85 144.78 0)
+		(at 60.96 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2716,9 +2679,9 @@
 		)
 		(uuid "3718aef9-4af0-4ce2-9aa1-69009e34fcf6")
 	)
-	(hierarchical_label "USART1_RX"
+	(hierarchical_label "DBG_RX"
 		(shape output)
-		(at 30.48 157.48 180)
+		(at 38.1 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2728,9 +2691,9 @@
 		)
 		(uuid "3dbea883-3afc-4ec6-aba5-9485e8bf437c")
 	)
-	(hierarchical_label "SWCLK"
+	(hierarchical_label "DBG_SWCLK"
 		(shape output)
-		(at 69.85 147.32 0)
+		(at 60.96 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2740,9 +2703,9 @@
 		)
 		(uuid "46e5382a-fb8d-45f6-b2ad-1362bf5cccdd")
 	)
-	(hierarchical_label "USART1_TX"
+	(hierarchical_label "DBG_TX"
 		(shape input)
-		(at 69.85 157.48 0)
+		(at 60.96 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2776,9 +2739,9 @@
 		)
 		(uuid "8847d419-e2a1-4fd8-8d2b-e63a2a78c0a1")
 	)
-	(hierarchical_label "NRST"
+	(hierarchical_label "DBG_NRST"
 		(shape output)
-		(at 69.85 154.94 0)
+		(at 60.96 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3855,7 +3818,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 69.85 142.24 90)
+		(at 60.96 142.24 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3865,7 +3828,7 @@
 		(fields_autoplaced yes)
 		(uuid "ada521f8-5adc-4e90-8f1b-6567f67adb9a")
 		(property "Reference" "#PWR0117"
-			(at 76.2 142.24 0)
+			(at 67.31 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +3837,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 142.2399 90)
+			(at 64.77 142.2399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3883,7 +3846,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 142.24 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3892,7 +3855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 142.24 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3901,7 +3864,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 69.85 142.24 0)
+			(at 60.96 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3924,7 +3887,7 @@
 	(symbol
 		(lib_name "GND_3")
 		(lib_id "power:GND")
-		(at 33.02 149.86 270)
+		(at 40.64 149.86 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3933,7 +3896,7 @@
 		(fields_autoplaced yes)
 		(uuid "affe242e-37a5-4150-9ce2-f10cbf020505")
 		(property "Reference" "#PWR0116"
-			(at 26.67 149.86 0)
+			(at 34.29 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3942,7 +3905,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 29.21 149.8599 90)
+			(at 36.83 149.8599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3951,7 +3914,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 149.86 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +3923,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 149.86 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3969,7 +3932,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 33.02 149.86 0)
+			(at 40.64 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
