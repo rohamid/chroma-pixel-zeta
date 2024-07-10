@@ -2259,6 +2259,44 @@
 		)
 	)
 	(sheet
+		(at 144.78 146.05)
+		(size 29.21 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "87d5fb8c-ace9-453f-ab56-153ed16cc12a")
+		(property "Sheetname" "USB"
+			(at 144.78 145.3384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "usb.kicad_sch"
+			(at 144.78 168.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 144.78 100.33)
 		(size 29.21 22.86)
 		(fields_autoplaced yes)
