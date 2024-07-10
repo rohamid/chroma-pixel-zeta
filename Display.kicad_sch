@@ -9374,6 +9374,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
+		(at 194.31 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fc3327c-252e-4ea5-9316-8e546da35f57")
+		(property "Reference" "J13"
+			(at 196.85 105.7655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x10_MountingPin"
+			(at 196.85 108.3055 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 194.31 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bb52aa78-7cf3-4c3f-9daa-3d46c04caa60")
+		)
+		(pin "1"
+			(uuid "332500fd-b20c-4d01-ab98-6f8aa24c218d")
+		)
+		(pin "8"
+			(uuid "9d1c84f9-16fe-4387-a8de-73bafb5c1907")
+		)
+		(pin "3"
+			(uuid "40456205-b436-49a1-940f-9d96b09dc6b2")
+		)
+		(pin "10"
+			(uuid "cdacdbf6-cd24-46fe-ab98-e1a5c19e6ae4")
+		)
+		(pin "4"
+			(uuid "fb98f341-02b1-4068-9564-a9c27b1b70dd")
+		)
+		(pin "7"
+			(uuid "e8739648-3002-4d57-a8fb-394e5262abe7")
+		)
+		(pin "9"
+			(uuid "fb281132-d538-4622-8726-0aeb74a79c69")
+		)
+		(pin "5"
+			(uuid "cb3d06aa-3db0-4dae-afd0-14859307b5d3")
+		)
+		(pin "MP"
+			(uuid "3577c2cd-2757-4401-afda-1e6a22535326")
+		)
+		(pin "6"
+			(uuid "d8a09389-538f-4654-88b0-556e76ab4bcd")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 97.79 34.29 90)
 		(unit 1)

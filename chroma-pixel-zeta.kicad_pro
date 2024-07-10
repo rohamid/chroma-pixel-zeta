@@ -633,7 +633,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "NOR_FLASH",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(0, 0, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -670,7 +670,7 @@
       },
       {
         "netclass": "HIGH_SPEED",
-        "pattern": "/MCU/PG8"
+        "pattern": "/MEMORY SDRAM/SDRAM*"
       },
       {
         "netclass": "LTDC",
@@ -706,7 +706,7 @@
       },
       {
         "netclass": "NOR_FLASH",
-        "pattern": "/MCU/NOR*"
+        "pattern": "/MCU/QUAD*"
       }
     ]
   },
