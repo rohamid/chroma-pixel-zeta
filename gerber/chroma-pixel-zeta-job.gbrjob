@@ -5,19 +5,19 @@
       "Application": "Pcbnew",
       "Version": "8.0.1"
     },
-    "CreationDate": "2024-05-14T09:23:25+07:00"
+    "CreationDate": "2024-07-11T11:53:30+07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "H743_LCD_dev",
-      "GUID": "48373433-5f4c-4434-945f-6465762e6b69",
+      "Name": "chroma-pixel-zeta",
+      "GUID": "6368726f-6d61-42d7-9069-78656c2d7a65",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 76.15,
-      "Y": 78.15
+      "X": 183.5,
+      "Y": 116.7
     },
-    "LayerNumber": 6,
+    "LayerNumber": 4,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -28,82 +28,71 @@
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
       "MinLineWidth": 0.15,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.15,
-      "TrackToRegion": 0.25,
-      "RegionToRegion": 0.25
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "H743_LCD_dev-F_Cu.gbr",
+      "Path": "chroma-pixel-zeta-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-In1_Cu.gbr",
+      "Path": "chroma-pixel-zeta-In1_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-In2_Cu.gbr",
+      "Path": "chroma-pixel-zeta-In2_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-In3_Cu.gbr",
-      "FileFunction": "Copper,L4,Inr",
+      "Path": "chroma-pixel-zeta-B_Cu.gbr",
+      "FileFunction": "Copper,L4,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-In4_Cu.gbr",
-      "FileFunction": "Copper,L5,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "H743_LCD_dev-B_Cu.gbr",
-      "FileFunction": "Copper,L6,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "H743_LCD_dev-F_Paste.gbr",
+      "Path": "chroma-pixel-zeta-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-B_Paste.gbr",
+      "Path": "chroma-pixel-zeta-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-F_Silkscreen.gbr",
+      "Path": "chroma-pixel-zeta-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-B_Silkscreen.gbr",
+      "Path": "chroma-pixel-zeta-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "H743_LCD_dev-F_Mask.gbr",
+      "Path": "chroma-pixel-zeta-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "H743_LCD_dev-B_Mask.gbr",
+      "Path": "chroma-pixel-zeta-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "H743_LCD_dev-Edge_Cuts.gbr",
+      "Path": "chroma-pixel-zeta-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
@@ -141,7 +130,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.535,
+      "Thickness": 1.24,
       "Material": "FR4",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -155,32 +144,8 @@
       "Type": "Dielectric",
       "Thickness": 0.1,
       "Material": "FR4",
-      "Name": "In2.Cu/In3.Cu",
-      "Notes": "Type: dielectric layer 3 (from In2.Cu to In3.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In3.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.535,
-      "Material": "FR4",
-      "Name": "In3.Cu/In4.Cu",
-      "Notes": "Type: dielectric layer 4 (from In3.Cu to In4.Cu)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "In4.Cu"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.1,
-      "Material": "FR4",
-      "Name": "In4.Cu/B.Cu",
-      "Notes": "Type: dielectric layer 5 (from In4.Cu to B.Cu)"
+      "Name": "In2.Cu/B.Cu",
+      "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
     },
     {
       "Type": "Copper",

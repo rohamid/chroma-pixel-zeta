@@ -3676,6 +3676,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2881912"
+			(at 49.53 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f3a4a833-1ad7-4172-9ba5-07a3435b8514")
 		)
@@ -3792,6 +3801,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 39.37 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C48192"
 			(at 39.37 129.54 0)
 			(effects
 				(font
@@ -4000,6 +4018,15 @@
 			)
 		)
 		(property "Description" "TVS Diode Array, 5.5V Standoff, 2 Channels, SOT-23 package"
+			(at 73.66 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C343996"
 			(at 73.66 85.09 0)
 			(effects
 				(font

@@ -8405,6 +8405,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C262683"
+			(at 215.9 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "5ac43fdb-1067-4c09-bde5-c21e60d1f61f")
 		)
