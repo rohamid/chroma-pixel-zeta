@@ -666,19 +666,19 @@
     "netclass_patterns": [
       {
         "netclass": "HIGH_SPEED",
-        "pattern": "/MCU/SDRAM_*"
+        "pattern": "/MCU/SDRAM_AD*"
       },
       {
         "netclass": "HIGH_SPEED",
-        "pattern": "/MEMORY SDRAM/SDRAM*"
+        "pattern": "/MCU/SDRAM_DQ*"
       },
       {
         "netclass": "LTDC",
-        "pattern": "/LCD/LCD_R*"
+        "pattern": "/LCD*"
       },
       {
-        "netclass": "LTDC",
-        "pattern": "/LCD/LCD_G*"
+        "netclass": "HIGH_SPEED",
+        "pattern": "/MEMORY SDRAM/SDRAM_CLK"
       },
       {
         "netclass": "LTDC",

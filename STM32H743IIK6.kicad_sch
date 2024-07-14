@@ -11445,6 +11445,16 @@
 		)
 		(uuid "ff94c4c0-ae55-46f6-af37-41608ad7ccf2")
 	)
+	(text "OTG SENSING"
+		(exclude_from_sim no)
+		(at 136.398 78.994 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eb9281c5-e2ca-49ee-b834-f0dac7bd870a")
+	)
 	(label "NRST"
 		(at 52.07 55.88 0)
 		(fields_autoplaced yes)
