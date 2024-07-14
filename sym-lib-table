@@ -12,4 +12,5 @@
   (lib (name "USB_C_Mid_mount_MOLEX_2169900003")(type "KiCad")(uri "${KIPRJMOD}/lib/Molex-USB-mid-mount-2169900003/USB_C_Mid_mount_MOLEX_2169900003.kicad_sym")(options "")(descr ""))
   (lib (name "CR1220-Batt-conn-S8411-45R")(type "KiCad")(uri "${KIPRJMOD}/lib/CR1220-Batt-conn-S8411-45R/CR1220-Batt-conn-S8411-45R.kicad_sym")(options "")(descr ""))
   (lib (name "SD_CARD-TF-01A")(type "KiCad")(uri "${KIPRJMOD}/lib/SD_CARD-TF-01A/SD_CARD-TF-01A.kicad_sym")(options "")(descr ""))
+  (lib (name "STMPS2141STR")(type "KiCad")(uri "${KIPRJMOD}/lib/STMPS2141STR/STMPS2141STR.kicad_sym")(options "")(descr ""))
 )

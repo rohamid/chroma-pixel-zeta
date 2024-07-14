@@ -10,4 +10,5 @@
   (lib (name "CR1220-Batt-conn-S8411-45R")(type "KiCad")(uri "${KIPRJMOD}/lib/CR1220-Batt-conn-S8411-45R/CR1220-Batt-conn-S8411-45R.pretty")(options "")(descr ""))
   (lib (name "SD_CARD-TF-01A")(type "KiCad")(uri "${KIPRJMOD}/lib/SD_CARD-TF-01A/SD_CARD-TF-01A.pretty")(options "")(descr ""))
   (lib (name "TF-115")(type "KiCad")(uri "${KIPRJMOD}/lib/TF-115.pretty")(options "")(descr ""))
+  (lib (name "STMPS2141STR")(type "KiCad")(uri "${KIPRJMOD}/lib/STMPS2141STR/STMPS2141STR.pretty")(options "")(descr ""))
 )
