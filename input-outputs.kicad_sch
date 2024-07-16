@@ -2587,6 +2587,26 @@
 		)
 		(uuid "fd599543-8cac-4e84-9ec0-ac3f208a4c68")
 	)
+	(text "TO MCU TX"
+		(exclude_from_sim no)
+		(at 65.024 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c56569e5-6cb7-4581-a7a3-b48987c4d18b")
+	)
+	(text "TO MCU RX"
+		(exclude_from_sim no)
+		(at 34.544 160.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d95370c1-b777-42ce-a63b-2e4da8ebcb9d")
+	)
 	(label "STEMMA_SCL"
 		(at 72.39 34.29 0)
 		(fields_autoplaced yes)
