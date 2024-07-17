@@ -13325,6 +13325,18 @@
 		)
 		(uuid "f6a8927f-fb4f-482d-b044-b6b16e11b2d9")
 	)
+	(hierarchical_label "LCD_SPI_CS"
+		(shape output)
+		(at 58.42 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "01c4afcd-0661-4cd4-b6cd-725613787d34")
+	)
 	(hierarchical_label "LCD_CS"
 		(shape input)
 		(at 58.42 76.2 180)
@@ -13471,7 +13483,7 @@
 	)
 	(hierarchical_label "LCD_SPI_DC"
 		(shape output)
-		(at 234.95 86.36 180)
+		(at 58.42 81.28 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14164,18 +14176,6 @@
 			(justify left)
 		)
 		(uuid "cf25cb17-6277-4443-82f7-dd5582cbb9b5")
-	)
-	(hierarchical_label "LCD_CS"
-		(shape output)
-		(at 58.42 93.98 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d23b2f68-68c8-4d20-a7c9-2ffa8e76eaae")
 	)
 	(hierarchical_label "LCD_SPI_MISO"
 		(shape input)
@@ -16550,7 +16550,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C25744"
 			(at 252.73 266.7 0)
 			(effects
 				(font
@@ -18732,6 +18732,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C20526"
+			(at 264.16 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1cb55442-0955-48df-8cfa-b3e64fe567d2")
 		)
@@ -20041,7 +20050,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C60491"
 			(at 308.61 124.46 0)
 			(effects
 				(font
@@ -20609,7 +20618,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C25744"
 			(at 252.73 215.9 0)
 			(effects
 				(font
@@ -21239,7 +21248,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C60491"
 			(at 308.61 168.91 0)
 			(effects
 				(font
@@ -21868,6 +21877,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 264.16 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C20526"
 			(at 264.16 262.89 0)
 			(effects
 				(font
@@ -24481,6 +24499,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C964729"
+			(at 207.01 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

@@ -328,7 +328,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 72.39) (xy 74.93 72.39)
+			(xy 58.42 76.2) (xy 74.93 76.2)
 		)
 		(stroke
 			(width 0)
@@ -418,7 +418,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 67.31) (xy 74.93 67.31)
+			(xy 58.42 68.58) (xy 74.93 68.58)
 		)
 		(stroke
 			(width 0)
@@ -588,7 +588,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 69.85) (xy 74.93 69.85)
+			(xy 58.42 73.66) (xy 74.93 73.66)
 		)
 		(stroke
 			(width 0)
@@ -645,6 +645,16 @@
 			(type default)
 		)
 		(uuid "6dad2810-645e-4eed-b100-f03c8dcbbeb8")
+	)
+	(wire
+		(pts
+			(xy 58.42 71.12) (xy 74.93 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71efe528-460a-47c6-b910-0835d82d35c6")
 	)
 	(bus
 		(pts
@@ -788,7 +798,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 74.93) (xy 74.93 74.93)
+			(xy 58.42 78.74) (xy 74.93 78.74)
 		)
 		(stroke
 			(width 0)
@@ -808,7 +818,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 85.09) (xy 74.93 85.09)
+			(xy 58.42 88.9) (xy 74.93 88.9)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +968,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 82.55) (xy 74.93 82.55)
+			(xy 58.42 86.36) (xy 74.93 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 80.01) (xy 74.93 80.01)
+			(xy 58.42 83.82) (xy 74.93 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2389,7 +2399,7 @@
 			(uuid "313e4685-8819-4360-8216-1608fad2e59a")
 		)
 		(pin "LCD_SPI_MISO" input
-			(at 74.93 74.93 180)
+			(at 74.93 78.74 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2399,7 +2409,7 @@
 			(uuid "82bd27c4-d3e8-4a29-9bab-654895a109f8")
 		)
 		(pin "LCD_SPI_SCK" output
-			(at 74.93 69.85 180)
+			(at 74.93 73.66 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2409,7 +2419,7 @@
 			(uuid "6c366df9-99e9-4358-86a4-3103e22d89d5")
 		)
 		(pin "LCD_SPI_MOSI" output
-			(at 74.93 72.39 180)
+			(at 74.93 76.2 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2419,7 +2429,7 @@
 			(uuid "02a425a4-0a75-49f4-abd3-aa6433890d2d")
 		)
 		(pin "LCD_SPI_DC" output
-			(at 74.93 67.31 180)
+			(at 74.93 68.58 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2439,7 @@
 			(uuid "f8a1d4c4-3726-4670-ad88-9b2fa58101be")
 		)
 		(pin "LCD_SPI_CLK" output
-			(at 74.93 80.01 180)
+			(at 74.93 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2439,7 +2449,7 @@
 			(uuid "d0598c60-7fb2-4741-8f1a-7d5b316516ae")
 		)
 		(pin "LCD_SPI_DAT" bidirectional
-			(at 74.93 82.55 180)
+			(at 74.93 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2519,7 @@
 			(uuid "0560e1fa-3da3-4093-b2c5-b195983ef45c")
 		)
 		(pin "LCD_SPI_RESET" output
-			(at 74.93 85.09 180)
+			(at 74.93 88.9 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,6 +2527,16 @@
 				(justify left)
 			)
 			(uuid "708900e4-5a09-4a21-b6a5-aa00aa7d120b")
+		)
+		(pin "LCD_SPI_CS" output
+			(at 74.93 71.12 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "626d5b06-8491-4593-b16a-e326b213dd87")
 		)
 		(instances
 			(project "chroma-pixel-zeta"
@@ -3049,7 +3069,7 @@
 			(uuid "a6416e73-d99f-45c2-950e-5e673edf2da6")
 		)
 		(pin "LCD_SPI_MISO" output
-			(at 58.42 74.93 0)
+			(at 58.42 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3059,7 +3079,7 @@
 			(uuid "3ae3c95f-ff76-412a-973f-f75a2ca091b6")
 		)
 		(pin "LCD_SPI_DC" input
-			(at 58.42 67.31 0)
+			(at 58.42 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3089,7 @@
 			(uuid "a658679d-1dbf-481d-bb06-895855c838b3")
 		)
 		(pin "LCD_SPI_MOSI" input
-			(at 58.42 72.39 0)
+			(at 58.42 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3079,7 +3099,7 @@
 			(uuid "29f46922-1dd1-4b9d-8ac0-31e233b44f70")
 		)
 		(pin "LCD_SPI_SCK" input
-			(at 58.42 69.85 0)
+			(at 58.42 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3089,7 +3109,7 @@
 			(uuid "4e0b3370-f16f-4f64-be38-5a91aed41a57")
 		)
 		(pin "LCD_SPI_CLK" input
-			(at 58.42 80.01 0)
+			(at 58.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3119,7 @@
 			(uuid "ea19d4ad-707d-4ff6-a946-683c53a0cea9")
 		)
 		(pin "LCD_SPI_DAT" bidirectional
-			(at 58.42 82.55 0)
+			(at 58.42 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3109,7 +3129,7 @@
 			(uuid "d2f13d43-2bc4-41a7-85aa-e0ca1cf60b6c")
 		)
 		(pin "LCD_SPI_RESET" input
-			(at 58.42 85.09 0)
+			(at 58.42 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,6 +3137,16 @@
 				(justify right)
 			)
 			(uuid "e54aeb78-2c31-4c45-bfb2-0e38fd2db9a6")
+		)
+		(pin "LCD_SPI_CS" input
+			(at 58.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "751b5d68-fbb0-4cc6-854c-2dae06b2bac5")
 		)
 		(instances
 			(project "chroma-pixel-zeta"

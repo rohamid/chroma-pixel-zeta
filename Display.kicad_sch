@@ -9631,17 +9631,6 @@
 		)
 		(uuid "e464a65e-a791-4e20-993f-81fce60e5619")
 	)
-	(label "LCD_CS"
-		(at 40.64 175.26 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ea002c19-6c86-4d24-9b00-516bbe9e0056")
-	)
 	(hierarchical_label "LCD_BLK"
 		(shape input)
 		(at 38.1 109.22 180)
@@ -9701,18 +9690,6 @@
 			(justify right)
 		)
 		(uuid "0d1f67da-fc09-4f5a-88b6-19179ca5828f")
-	)
-	(hierarchical_label "LCD_CS"
-		(shape input)
-		(at 40.64 175.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "146687cc-6b8d-43b0-a73f-fed035a09eb1")
 	)
 	(hierarchical_label "LCD_SPI_MISO"
 		(shape output)
@@ -9941,6 +9918,18 @@
 			(justify right)
 		)
 		(uuid "d61007df-dcc5-435c-9584-96609d32b0d8")
+	)
+	(hierarchical_label "LCD_SPI_CS"
+		(shape input)
+		(at 40.64 175.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dc37788c-0f72-4569-8f5d-053c4333e12b")
 	)
 	(hierarchical_label "LCD_BLK"
 		(shape input)
@@ -10589,6 +10578,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 246.38 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12018"
 			(at 246.38 101.6 0)
 			(effects
 				(font
@@ -11945,6 +11943,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C12018"
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c297daa-f2d0-49cf-91bb-d56c4e840992")
 		)
@@ -12088,6 +12095,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12018"
 			(at 246.38 81.28 0)
 			(effects
 				(font
@@ -13887,6 +13903,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C12018"
+			(at 246.38 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "20e74109-aeaa-4043-835e-bb5141fe1f90")
 		)
@@ -13975,7 +14000,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C96446"
+		(property "JLCPCB Part #" "C19666 "
 			(at 147.32 161.29 0)
 			(effects
 				(font
@@ -14476,6 +14501,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 246.38 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12018"
 			(at 246.38 60.96 0)
 			(effects
 				(font
@@ -15671,6 +15705,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C12018"
+			(at 246.38 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28898fdb-0612-4ce5-bb0d-7272a936f9a1")
 		)
@@ -16294,6 +16337,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 233.68 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C12018"
 			(at 233.68 124.46 0)
 			(effects
 				(font

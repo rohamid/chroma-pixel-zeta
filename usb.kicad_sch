@@ -4092,7 +4092,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C25744"
 			(at 119.38 85.09 0)
 			(effects
 				(font
@@ -4739,6 +4739,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C54624"
+			(at 80.01 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0e1b767d-52d9-4b76-8bbd-caa52c7b581d")
 		)
@@ -4836,7 +4845,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -5106,7 +5115,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C84256"
+		(property "JLCPCB Part #" "C2297"
 			(at 166.37 78.74 0)
 			(effects
 				(font
@@ -5248,7 +5257,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C25744"
 			(at 152.4 93.98 0)
 			(effects
 				(font
@@ -5530,7 +5539,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C377773"
+		(property "JLCPCB Part #" "C98192"
 			(at 109.22 118.11 0)
 			(effects
 				(font
@@ -5733,6 +5742,15 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"
+			(at 163.83 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C20526"
 			(at 163.83 90.17 0)
 			(effects
 				(font
@@ -5953,7 +5971,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C11702"
 			(at 166.37 71.12 0)
 			(effects
 				(font
@@ -6576,7 +6594,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25741"
+		(property "JLCPCB Part #" "C11702"
 			(at 105.41 92.71 0)
 			(effects
 				(font
@@ -6734,7 +6752,7 @@
 		(at 236.22 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
