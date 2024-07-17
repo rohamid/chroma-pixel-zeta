@@ -3656,6 +3656,251 @@
 				)
 			)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 1.016)
+					(mid -2.0276 0)
+					(end -1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 -1.016)
+					(mid 2.0276 0)
+					(end 1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "MT9284:MT9284"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4344,12 +4589,6 @@
 		(uuid "6841aae6-2272-44b8-946e-e6c8783b2e60")
 	)
 	(junction
-		(at 248.92 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6fc42314-d525-48b9-b3fb-1d2110e3f0f0")
-	)
-	(junction
 		(at 78.74 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4372,12 +4611,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "887f98a8-5453-4ceb-a684-530066741b19")
-	)
-	(junction
-		(at 251.46 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8c682721-88d5-4a9e-8c70-6abd313f07a0")
 	)
 	(junction
 		(at 83.82 41.91)
@@ -4691,7 +4924,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 147.32) (xy 248.92 147.32)
+			(xy 229.87 147.32) (xy 243.84 147.32)
 		)
 		(stroke
 			(width 0)
@@ -5071,16 +5304,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 138.43) (xy 227.33 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ec85516-b200-4781-8bc7-f593b8e13234")
-	)
-	(wire
-		(pts
 			(xy 228.6 76.2) (xy 241.3 76.2)
 		)
 		(stroke
@@ -5251,6 +5474,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 139.7) (xy 215.9 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41d13475-7309-48fa-a225-de09cdc88ef9")
+	)
+	(wire
+		(pts
 			(xy 257.81 153.67) (xy 257.81 119.38)
 		)
 		(stroke
@@ -5281,6 +5514,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 95.25) (xy 173.99 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "463c6721-cafb-47a2-91f7-ae2ccab4b35c")
+	)
+	(wire
+		(pts
 			(xy 56.515 36.83) (xy 59.69 36.83)
 		)
 		(stroke
@@ -5301,13 +5544,23 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 149.86) (xy 251.46 149.86)
+			(xy 227.33 151.13) (xy 246.38 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4871539d-d3d7-43c4-bd45-9ad724d02b6d")
+	)
+	(wire
+		(pts
+			(xy 243.84 134.62) (xy 259.08 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "489e2e07-234f-4560-b5e1-9871bd769e6b")
 	)
 	(wire
 		(pts
@@ -5348,6 +5601,16 @@
 			(type default)
 		)
 		(uuid "4aedea43-c2aa-4212-9d36-75f924a4873f")
+	)
+	(wire
+		(pts
+			(xy 154.94 90.17) (xy 160.02 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b262eef-2c83-44db-a714-86d65f2ee5c8")
 	)
 	(wire
 		(pts
@@ -5641,7 +5904,7 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 147.32) (xy 248.92 134.62)
+			(xy 243.84 147.32) (xy 243.84 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5811,16 +6074,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 134.62) (xy 259.08 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8357d740-0074-438d-b214-6d0705f3689f")
-	)
-	(wire
-		(pts
 			(xy 243.84 127) (xy 259.08 127)
 		)
 		(stroke
@@ -5841,7 +6094,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 146.05) (xy 227.33 149.86)
+			(xy 227.33 146.05) (xy 227.33 151.13)
 		)
 		(stroke
 			(width 0)
@@ -5858,6 +6111,16 @@
 			(type default)
 		)
 		(uuid "86b38d5e-ec69-4747-80d1-d0062b79db32")
+	)
+	(wire
+		(pts
+			(xy 163.83 113.03) (xy 173.99 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87450fd1-1000-42ec-9553-c0d1e4a7e4bb")
 	)
 	(wire
 		(pts
@@ -5891,16 +6154,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 137.16) (xy 259.08 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8adf7bb1-915e-4073-bc04-090c1098fdcd")
-	)
-	(wire
-		(pts
 			(xy 251.46 88.9) (xy 259.08 88.9)
 		)
 		(stroke
@@ -5918,6 +6171,16 @@
 			(type default)
 		)
 		(uuid "8cd1c67c-0734-488a-b33b-80409218d8c8")
+	)
+	(wire
+		(pts
+			(xy 223.52 139.7) (xy 227.33 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf6886c-be44-4727-bfee-2cd2b17ea0b3")
 	)
 	(wire
 		(pts
@@ -6098,6 +6361,16 @@
 			(type default)
 		)
 		(uuid "9f4a1806-2bec-4ef5-87b4-4836817c0e39")
+	)
+	(wire
+		(pts
+			(xy 154.94 107.95) (xy 160.02 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1208937-2054-4af0-8ec9-65b9ccde295b")
 	)
 	(wire
 		(pts
@@ -6341,16 +6614,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 134.62) (xy 248.92 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94b13bd-38c3-4956-b9dd-4f2b66be410a")
-	)
-	(wire
-		(pts
 			(xy 251.46 109.22) (xy 259.08 109.22)
 		)
 		(stroke
@@ -6491,6 +6754,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 100.33) (xy 160.02 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c577e382-3803-4a6c-b417-ec66f8a6bc9c")
+	)
+	(wire
+		(pts
 			(xy 228.6 83.82) (xy 241.3 83.82)
 		)
 		(stroke
@@ -6591,7 +6864,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 149.86) (xy 251.46 137.16)
+			(xy 246.38 151.13) (xy 246.38 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6841,6 +7114,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 118.11) (xy 160.02 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9bc67e0-e6ac-4047-ae5c-18d9e4780095")
+	)
+	(wire
+		(pts
 			(xy 40.64 147.32) (xy 54.61 147.32)
 		)
 		(stroke
@@ -7051,7 +7334,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 137.16) (xy 251.46 137.16)
+			(xy 246.38 137.16) (xy 259.08 137.16)
 		)
 		(stroke
 			(width 0)
@@ -8941,6 +9224,17 @@
 		)
 		(uuid "0d349a13-e951-4651-9b66-01c447af8682")
 	)
+	(label "LCD_CLK"
+		(at 246.38 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "19ffc46d-89e4-4f0f-8452-093fc01f592b")
+	)
 	(label "LCD_BLK"
 		(at 27.94 41.91 0)
 		(fields_autoplaced yes)
@@ -9161,6 +9455,17 @@
 		)
 		(uuid "84ed5f1a-ee7f-4ef6-a777-09f54814a926")
 	)
+	(label "LCD_DAT"
+		(at 246.38 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "940ef083-efe6-4ab4-97bd-23bf03d6b307")
+	)
 	(label "LCD_SDI(MOSI)"
 		(at 40.64 167.64 0)
 		(fields_autoplaced yes)
@@ -9227,6 +9532,17 @@
 		)
 		(uuid "b6e7c480-3856-465a-b87b-ff97129ac5b9")
 	)
+	(label "LCD_CLK"
+		(at 173.99 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bb5d88c7-1806-47ce-8c23-fd32ea53a40b")
+	)
 	(label "LTDC_R6"
 		(at 228.6 73.66 0)
 		(fields_autoplaced yes)
@@ -9282,6 +9598,17 @@
 		)
 		(uuid "d2625106-6577-4ca0-8d8a-3f6193e64f59")
 	)
+	(label "LCD_DAT"
+		(at 173.99 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d34463b2-99c5-45d4-a7b7-8016eafd4251")
+	)
 	(label "LED_K"
 		(at 106.045 41.91 180)
 		(fields_autoplaced yes)
@@ -9303,17 +9630,6 @@
 			(justify right bottom)
 		)
 		(uuid "e464a65e-a791-4e20-993f-81fce60e5619")
-	)
-	(label "LCD_RESET"
-		(at 40.64 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e571fff1-a922-47f4-83f2-4328b8c5048b")
 	)
 	(label "LCD_CS"
 		(at 40.64 175.26 0)
@@ -9337,6 +9653,18 @@
 			(justify right)
 		)
 		(uuid "0569b5e2-0375-4cb4-94d7-a20bc2cb4f34")
+	)
+	(hierarchical_label "LCD_TP_SDA"
+		(shape bidirectional)
+		(at 154.94 90.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "07b53d9d-953e-42bd-a3d7-a96f0be28451")
 	)
 	(hierarchical_label "LCD_TP_SDA"
 		(shape bidirectional)
@@ -9374,9 +9702,9 @@
 		)
 		(uuid "0d1f67da-fc09-4f5a-88b6-19179ca5828f")
 	)
-	(hierarchical_label "LCD_SCL"
+	(hierarchical_label "LCD_CS"
 		(shape input)
-		(at 246.38 134.62 180)
+		(at 40.64 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9384,7 +9712,19 @@
 			)
 			(justify right)
 		)
-		(uuid "19ed9ccc-bd79-4dd1-b8df-d3e9e1af6ae9")
+		(uuid "146687cc-6b8d-43b0-a73f-fed035a09eb1")
+	)
+	(hierarchical_label "LCD_SPI_MISO"
+		(shape output)
+		(at 40.64 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1da7cb34-bd00-4c9d-8818-4b2ba4ce780a")
 	)
 	(hierarchical_label "LCD_TP_SCL"
 		(shape input)
@@ -9422,6 +9762,18 @@
 		)
 		(uuid "39ee69b8-eb8a-4ee9-8f25-310549dbdd88")
 	)
+	(hierarchical_label "LCD_SPI_RESET"
+		(shape input)
+		(at 40.64 172.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3eed8f6a-a93f-41b4-85d8-c6080ce212ab")
+	)
 	(hierarchical_label "LCD_TP_RST"
 		(shape input)
 		(at 110.49 163.83 180)
@@ -9433,6 +9785,42 @@
 			(justify right)
 		)
 		(uuid "3ef3c888-02c5-4e16-9d06-35208ca30cdb")
+	)
+	(hierarchical_label "LCD_SPI_SCK"
+		(shape input)
+		(at 40.64 165.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4b3a2baf-226c-47e8-92cc-7bc0ca510705")
+	)
+	(hierarchical_label "LCD_SPI_MOSI"
+		(shape input)
+		(at 40.64 167.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d158f95-6e70-4213-a44a-b12583865ea0")
+	)
+	(hierarchical_label "LCD_SPI_CLK"
+		(shape input)
+		(at 154.94 118.11 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "54b74d39-5225-487f-92d7-1a5a51a82310")
 	)
 	(hierarchical_label "LCD_TP_INT"
 		(shape output)
@@ -9469,18 +9857,6 @@
 			(justify right)
 		)
 		(uuid "77abe944-1ad8-460c-9515-24674c7dd9ea")
-	)
-	(hierarchical_label "LCD_SDA"
-		(shape bidirectional)
-		(at 246.38 137.16 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8c7e00ba-86b8-4dfc-9515-c8b5828d691e")
 	)
 	(hierarchical_label "LCD_TP_SCL"
 		(shape input)
@@ -9530,6 +9906,30 @@
 		)
 		(uuid "bec3db84-1852-40a6-88f4-73885a6da363")
 	)
+	(hierarchical_label "LCD_TP_SCL"
+		(shape input)
+		(at 154.94 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c98bfe7b-d1b6-4152-bf21-e7c0d4aebe84")
+	)
+	(hierarchical_label "LCD_SPI_DAT"
+		(shape bidirectional)
+		(at 154.94 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d11b031e-c66f-4918-85ce-d47b8c566f34")
+	)
 	(hierarchical_label "LTDC_R[0..7]"
 		(shape input)
 		(at 217.17 53.34 180)
@@ -9577,6 +9977,18 @@
 			(justify right)
 		)
 		(uuid "f91193f5-28f5-43d1-b94c-3fa8cdfe6331")
+	)
+	(hierarchical_label "LCD_SPI_DC"
+		(shape input)
+		(at 40.64 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ff34f665-afca-492e-9378-560afe2bf637")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -9783,72 +10195,6 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 227.33 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0eb9bfec-2ad3-4771-91e9-85e0b0a4ceec")
-		(property "Reference" "#PWR04"
-			(at 227.33 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 227.33 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 227.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 227.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 227.33 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3012f239-1335-41b9-98d7-6addb972ca9f")
-		)
-		(instances
-			(project "chroma-pixel-zeta"
-				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14996,6 +15342,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Open")
+		(at 219.71 139.7 180)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b761100c-433c-4a89-a767-0bdc816874f3")
+		(property "Reference" "JP12"
+			(at 219.71 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JMP"
+			(at 219.71 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 219.71 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "43b5ac01-096c-4c7b-8e96-ab56ae4e8cd7")
+		)
+		(pin "2"
+			(uuid "73f79a21-e94c-40f8-b71b-52368a222b33")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "JP12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Small")
 		(at 67.31 81.28 90)
 		(unit 1)
@@ -16626,6 +17040,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 160.02 95.25 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1249fc0-1e25-4377-bb01-117ac49bda29")
+		(property "Reference" "JP13"
+			(at 157.48 93.9799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LCD_DAT_SEL"
+			(at 157.48 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 160.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bd8eb270-0280-4943-9a3b-ccad7b9ce703")
+		)
+		(pin "2"
+			(uuid "af9ae3f8-c7a8-486c-8133-d944d9b921d9")
+		)
+		(pin "3"
+			(uuid "a2f6cc31-5d80-409c-8b1e-453ef0aa78a2")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 160.02 113.03 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdabb13d-052c-4edd-aaa5-da735187b67a")
+		(property "Reference" "JP14"
+			(at 157.48 111.7599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "LCD_CLK_SEL"
+			(at 157.48 114.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels"
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 160.02 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d25ea948-4b61-4c76-9b98-5e04bd0e133a")
+		)
+		(pin "2"
+			(uuid "6e83e4f4-e269-4130-a63f-1a74dd0e7d34")
+		)
+		(pin "3"
+			(uuid "b4ee2819-d3c3-43d1-b4a7-4df65e6350a1")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "JP14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 92.71 102.87 0)
@@ -16829,6 +17389,73 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "C48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 213.36 139.7 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fff488c4-6265-4cc2-82e0-45cff7295cb2")
+		(property "Reference" "#PWR021"
+			(at 217.17 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 209.55 139.6999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 213.36 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "501a472f-359a-485b-b38a-dbe79894614e")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)

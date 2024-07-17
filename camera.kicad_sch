@@ -928,6 +928,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 67.31) (xy 215.9 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044c859c-acbd-455f-a422-b296c2701bfa")
+	)
+	(wire
+		(pts
 			(xy 200.66 113.03) (xy 210.82 113.03)
 		)
 		(stroke
@@ -938,7 +948,7 @@
 	)
 	(bus
 		(pts
-			(xy 149.86 107.95) (xy 162.56 107.95)
+			(xy 171.45 118.11) (xy 184.15 118.11)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +958,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 140.97) (xy 215.9 138.43)
+			(xy 224.79 67.31) (xy 224.79 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1035,6 +1045,16 @@
 			(type default)
 		)
 		(uuid "dfba9a35-7541-4a4d-a887-504d58b7b22f")
+	)
+	(wire
+		(pts
+			(xy 215.9 67.31) (xy 215.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e59020ca-70e2-4716-a97e-67a986d53836")
 	)
 	(wire
 		(pts
@@ -8148,6 +8168,16 @@
 			"GAMAYAwBgDAGAMAYAwBgDAGAMAYAwBgDAGAMA//Z"
 		)
 	)
+	(text "BOTTOM CONTACT"
+		(exclude_from_sim no)
+		(at 228.346 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ee1858a1-f0bb-49bc-8d50-d4c4faaec11c")
+	)
 	(label "DCMI_D6"
 		(at 200.66 107.95 0)
 		(fields_autoplaced yes)
@@ -8238,7 +8268,7 @@
 	)
 	(hierarchical_label "DCMI_D[0..7]"
 		(shape bidirectional)
-		(at 149.86 107.95 180)
+		(at 171.45 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8286,7 +8316,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 140.97 0)
+		(at 224.79 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8295,7 +8325,7 @@
 		(fields_autoplaced yes)
 		(uuid "79d7ab68-161a-4fbd-bef2-b5fce947c67a")
 		(property "Reference" "#PWR051"
-			(at 215.9 147.32 0)
+			(at 224.79 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8304,7 +8334,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 146.05 0)
+			(at 224.79 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,7 +8342,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 140.97 0)
+			(at 224.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8321,7 +8351,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 140.97 0)
+			(at 224.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8330,7 +8360,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 140.97 0)
+			(at 224.79 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8352,16 +8382,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x24_MountingPin")
-		(at 215.9 102.87 0)
+		(at 215.9 105.41 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f9df03e3-b0f4-473d-8946-3850dfcd4403")
 		(property "Reference" "J10"
-			(at 218.44 103.2255 0)
+			(at 218.44 105.0545 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8370,7 +8400,7 @@
 			)
 		)
 		(property "Value" "Conn_01x24_MountingPin"
-			(at 218.44 105.7655 0)
+			(at 218.44 102.5145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +8409,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal"
-			(at 215.9 102.87 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8388,7 +8418,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 102.87 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8427,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x24, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 215.9 102.87 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8406,7 +8436,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C262683"
-			(at 215.9 102.87 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
