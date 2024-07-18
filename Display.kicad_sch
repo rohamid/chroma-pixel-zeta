@@ -9163,6 +9163,16 @@
 		)
 		(uuid "25bbad24-8f9d-4a37-95e7-f9fe3546458d")
 	)
+	(text "see C7462337\nC19269357"
+		(exclude_from_sim no)
+		(at 28.956 185.674 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5b1ada97-66b4-4342-9f1f-f9d282b906d3")
+	)
 	(text "see JLCPCB : C262361 or better : C240842 or TE : C408826"
 		(exclude_from_sim no)
 		(at 126.492 187.452 0)

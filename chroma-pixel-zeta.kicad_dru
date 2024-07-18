@@ -12,7 +12,7 @@
 
 (rule "target length and skew"
       (condition "A.NetClass == 'SD_CARD'")
-      (constraint length (min 93.8mm) (opt 94mm) (max 94.2mm))
+      (constraint length (min 102.8mm) (opt 103mm) (max 103.2mm))
       (constraint skew (max 0.1mm)))
 
 (rule "target length and skew"
