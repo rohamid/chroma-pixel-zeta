@@ -1028,6 +1028,26 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 80.01) (xy 210.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "991787df-d1e9-49ca-8a66-b8fe4b6e687c")
+	)
+	(wire
+		(pts
+			(xy 200.66 85.09) (xy 210.82 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad768e33-9cc1-42a0-a0e6-fbe8f898f22d")
+	)
+	(wire
+		(pts
 			(xy 200.66 125.73) (xy 210.82 125.73)
 		)
 		(stroke
@@ -8278,6 +8298,18 @@
 		)
 		(uuid "09735d57-d009-4889-acb8-c58d816e5cb6")
 	)
+	(hierarchical_label "CAM_SCL"
+		(shape input)
+		(at 200.66 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "17bce046-b7de-465b-bbd7-6f6d8986daf4")
+	)
 	(hierarchical_label "DCMI_HSYNC"
 		(shape output)
 		(at 200.66 95.25 180)
@@ -8301,6 +8333,18 @@
 			(justify right)
 		)
 		(uuid "2982f43d-5940-4864-a82e-2f8cb7f0ed43")
+	)
+	(hierarchical_label "CAM_SDA"
+		(shape bidirectional)
+		(at 200.66 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9fd4c050-83a9-45e1-a3d6-c738b729974e")
 	)
 	(hierarchical_label "DCMI_VSYNC"
 		(shape output)
@@ -8408,7 +8452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-24S-0.5SH_1x24-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "Connector_FFC-FPC:Jushuo_AFC07-S24FCA-00_1x24-1MP_P0.50_Horizontal"
 			(at 215.9 105.41 0)
 			(effects
 				(font
@@ -8435,7 +8479,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C262683"
+		(property "JLCPCB Part #" "C262567"
 			(at 215.9 105.41 0)
 			(effects
 				(font

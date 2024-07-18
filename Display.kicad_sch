@@ -125,11 +125,11 @@
 				)
 			)
 		)
-		(symbol "+3V3_2"
+		(symbol "+3V3_4"
 			(power)
-			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -186,7 +186,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3V3_2_0_1"
+			(symbol "+3V3_4_0_1"
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
@@ -224,11 +224,11 @@
 					)
 				)
 			)
-			(symbol "+3V3_2_1_1"
+			(symbol "+3V3_4_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0)
-					(name "~"
+					(length 0) hide
+					(name "+3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4691,6 +4691,10 @@
 		(uuid "f5d8c243-dca3-4307-8d5b-33ab3d6adc6c")
 	)
 	(no_connect
+		(at 54.61 152.4)
+		(uuid "51f5f61b-9be2-4ac2-a852-051d80f14bc8")
+	)
+	(no_connect
 		(at 259.08 139.7)
 		(uuid "7f15391a-757c-49ae-90a1-0e65ab1662ea")
 	)
@@ -4991,6 +4995,16 @@
 			(type default)
 		)
 		(uuid "07924855-a40c-4ec5-8dbe-e6e7ff2ef13b")
+	)
+	(wire
+		(pts
+			(xy 163.83 41.91) (xy 163.83 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b867c9-c9f1-4573-9db0-b2423f161bea")
 	)
 	(wire
 		(pts
@@ -5854,6 +5868,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 40.64) (xy 152.4 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bd9266f-67b5-4787-bec9-e184a51b6385")
+	)
+	(wire
+		(pts
 			(xy 46.99 97.79) (xy 46.99 95.25)
 		)
 		(stroke
@@ -6154,6 +6178,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 41.91) (xy 163.83 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b878fad-f9de-4f1a-9ec4-8a0b444d91b0")
+	)
+	(wire
+		(pts
 			(xy 251.46 88.9) (xy 259.08 88.9)
 		)
 		(stroke
@@ -6400,7 +6434,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "a3ea568f-1091-43a6-822c-742624ed1243")
+		(uuid "a33007ad-99e7-4f54-80d0-db308a7a4a2b")
 	)
 	(wire
 		(pts
@@ -10535,6 +10569,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 110.49 166.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16ff21d0-c5bf-4ad1-addb-fe4c72563c83")
+		(property "Reference" "#PWR056"
+			(at 114.3 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_LCD"
+			(at 106.68 166.3699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 110.49 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1043ea8c-6914-423b-92bf-36588009ee91")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Pack04")
 		(at 246.38 101.6 90)
 		(unit 1)
@@ -11173,72 +11274,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 147.32 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27de74ad-a699-4859-b20d-77933bd9f305")
-		(property "Reference" "#PWR0149"
-			(at 147.32 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 147.32 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 147.32 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "17cd0d97-c3fd-4d23-81b3-aa82bbf55c04")
-		)
-		(instances
-			(project "chroma-pixel-zeta"
-				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR0149")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x06_MountingPin")
 		(at 128.27 166.37 0)
 		(mirror x)
@@ -11683,6 +11718,73 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_1")
+		(lib_id "power:+3V3")
+		(at 116.84 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3aead46c-5f80-4e7a-85f2-7cf2dad54f21")
+		(property "Reference" "#PWR027"
+			(at 116.84 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 116.84 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 116.84 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09f95c59-4b55-416c-a3a1-6d4c26e6de6d")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 229.87 143.51 0)
 		(unit 1)
@@ -11980,72 +12082,6 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "RN6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 242.57 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4e5e68d2-90f1-4d22-aa94-9206731cc38f")
-		(property "Reference" "#PWR0147"
-			(at 242.57 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 242.57 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 242.57 27.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e7d8f5d1-cf53-44d9-8768-f93caf75ca87")
-		)
-		(instances
-			(project "chroma-pixel-zeta"
-				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -12671,72 +12707,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 74.93 160.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8238db0d-73d1-478c-9c66-8c9ca3b99f14")
-		(property "Reference" "#PWR0151"
-			(at 74.93 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "LCD_VDD"
-			(at 74.93 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 74.93 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7d93557b-833f-4f42-b526-0ee3378c4e16")
-		)
-		(instances
-			(project "chroma-pixel-zeta"
-				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR0151")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "GND_1")
 		(lib_id "power:GND")
 		(at 106.68 129.54 0)
@@ -12798,6 +12768,72 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 152.4 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "84ebb2f9-98d7-4d4c-afe9-e6051debda01")
+		(property "Reference" "#PWR0147"
+			(at 152.4 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_LCD"
+			(at 152.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 152.4 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "101cc08b-769b-417a-817a-4d1f0bc66703")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -13367,6 +13403,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 257.81 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8e8bb6a0-178f-4aad-93df-1e83ec3c46b5")
+		(property "Reference" "#PWR050"
+			(at 257.81 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_LCD"
+			(at 257.81 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 257.81 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f78d7c7b-16fd-48ef-9a45-bac024104e4b")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR050")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 92.71 97.79 0)
 		(unit 1)
@@ -13784,74 +13886,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+3V3_2")
-		(lib_id "power:+3V3")
-		(at 110.49 166.37 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "948dfef4-8e7c-41ab-9f04-eaa5ec9b7ba3")
-		(property "Reference" "#PWR056"
-			(at 114.3 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 106.68 166.3699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 110.49 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24efe0d2-8362-459f-8d3b-01f4a2e1a706")
-		)
-		(instances
-			(project "chroma-pixel-zeta"
-				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Pack04")
 		(at 246.38 91.44 90)
 		(unit 1)
@@ -13940,6 +13974,72 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "RN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 147.32 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "988bec87-c6db-450f-a74b-b89db569723c")
+		(property "Reference" "#PWR085"
+			(at 147.32 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_LCD"
+			(at 147.32 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 147.32 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8a25bba-9726-434b-bba0-f7f525661a3b")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -14546,72 +14646,6 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "RN2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 116.84 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa2f5162-d10f-4a47-ac68-19fe42863caa")
-		(property "Reference" "#PWR027"
-			(at 116.84 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 116.84 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9bbe6f46-821b-4191-ad92-8a77ce88fa81")
-		)
-		(instances
-			(project "chroma-pixel-zeta"
-				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16152,6 +16186,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 242.57 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca89c40a-a759-48bf-b62d-7491c421d437")
+		(property "Reference" "#PWR021"
+			(at 242.57 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_LCD"
+			(at 242.57 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 242.57 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "38fb60b3-a373-427a-866b-3144f6d1aeec")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 106.68 116.84 0)
 		(unit 1)
@@ -16531,16 +16631,16 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 257.81 39.37 0)
+		(at 74.93 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "da398616-21b7-4ce8-bdb7-7e9a965f0178")
-		(property "Reference" "#PWR050"
-			(at 257.81 43.18 0)
+		(uuid "d6941ef6-6cbf-4394-9a3d-c6783bcdf052")
+		(property "Reference" "#PWR082"
+			(at 74.93 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16548,8 +16648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 257.81 34.29 0)
+		(property "Value" "VDD_LCD"
+			(at 74.93 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16557,7 +16657,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 257.81 39.37 0)
+			(at 74.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16566,7 +16666,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 257.81 39.37 0)
+			(at 74.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16575,7 +16675,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 257.81 39.37 0)
+			(at 74.93 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16584,12 +16684,79 @@
 			)
 		)
 		(pin "1"
-			(uuid "d850c329-e0b8-428f-8d05-5abfc7847cca")
+			(uuid "0cb60381-fb8e-4b5b-9cda-3cb283d85e7f")
 		)
 		(instances
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR050")
+					(reference "#PWR082")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+3V3_4")
+		(lib_id "power:+3V3")
+		(at 163.83 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d94350a2-922f-44d4-8f0f-a8a46fd816cb")
+		(property "Reference" "#PWR0149"
+			(at 163.83 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3A"
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42dd70ee-f5dd-406f-a36a-92c375fb053e")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -16881,6 +17048,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 40.64 180.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6ae4212-5cd7-466a-a85b-a92ab6c84c3c")
+		(property "Reference" "#PWR0151"
+			(at 44.45 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDD_LCD"
+			(at 36.83 180.3399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 40.64 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02c7cbe5-390f-4645-bf24-8eecb0471db6")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:MBR0540")
 		(at 83.82 92.71 0)
 		(mirror y)
@@ -16959,17 +17193,18 @@
 		)
 	)
 	(symbol
+		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
-		(at 40.64 180.34 90)
+		(at 213.36 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ee2f6fc6-d5b0-4b62-9875-a027f7fd1087")
-		(property "Reference" "#PWR0153"
-			(at 44.45 180.34 0)
+		(uuid "ee1a7e60-e2bd-4ab2-873c-ad82036d94c2")
+		(property "Reference" "#PWR0129"
+			(at 217.17 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16977,8 +17212,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LCD_VDD"
-			(at 36.83 180.3399 90)
+		(property "Value" "+3V3"
+			(at 209.55 139.6999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16987,7 +17222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 180.34 0)
+			(at 213.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16996,7 +17231,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 180.34 0)
+			(at 213.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17005,7 +17240,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 180.34 0)
+			(at 213.36 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17014,12 +17249,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "aec19c90-6699-45a5-a060-e5a8bf2a3867")
+			(uuid "9659fecc-50b3-4075-b279-090095b78b03")
 		)
 		(instances
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR0153")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -17441,73 +17676,6 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "C48")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 213.36 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fff488c4-6265-4cc2-82e0-45cff7295cb2")
-		(property "Reference" "#PWR021"
-			(at 217.17 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 209.55 139.6999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 213.36 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "501a472f-359a-485b-b38a-dbe79894614e")
-		)
-		(instances
-			(project "chroma-pixel-zeta"
-				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
-					(reference "#PWR021")
 					(unit 1)
 				)
 			)
