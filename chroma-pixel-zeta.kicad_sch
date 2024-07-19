@@ -205,12 +205,6 @@
 		)
 	)
 	(junction
-		(at 130.81 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "26a1518f-9f91-45e2-b192-fd69a839a0c5")
-	)
-	(junction
 		(at 134.62 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -245,12 +239,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d35f6fb2-9901-459d-9818-6ee3e8e7b988")
-	)
-	(junction
-		(at 134.62 166.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecbb454c-6dc1-4dfa-aa43-28f4d09721d2")
 	)
 	(junction
 		(at 64.77 120.65)
@@ -310,7 +298,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 180.34) (xy 130.81 163.83)
+			(xy 130.81 121.92) (xy 130.81 180.34)
 		)
 		(stroke
 			(width 0)
@@ -407,6 +395,16 @@
 			(type default)
 		)
 		(uuid "2874ecc3-5b8a-4289-a9cb-4693e06d41cb")
+	)
+	(wire
+		(pts
+			(xy 125.73 140.97) (xy 146.05 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "297182cb-24c9-479d-9ec0-81958930a82b")
 	)
 	(wire
 		(pts
@@ -560,26 +558,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 151.13) (xy 146.05 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54690496-c05e-412a-8f96-83657e274154")
-	)
-	(wire
-		(pts
-			(xy 134.62 166.37) (xy 146.05 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54edb0ca-da09-4f6a-9acf-5bea916306ee")
-	)
-	(wire
-		(pts
 			(xy 125.73 41.91) (xy 146.05 41.91)
 		)
 		(stroke
@@ -640,16 +618,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 153.67) (xy 146.05 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62f9e87d-3744-4018-a6e4-71571e7ab087")
-	)
-	(wire
-		(pts
 			(xy 125.73 99.06) (xy 146.05 99.06)
 		)
 		(stroke
@@ -697,16 +665,6 @@
 			(type default)
 		)
 		(uuid "6c7d2705-a657-4c0c-be86-1d3a06ed93c8")
-	)
-	(bus
-		(pts
-			(xy 125.73 161.29) (xy 146.05 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6dad2810-645e-4eed-b100-f03c8dcbbeb8")
 	)
 	(wire
 		(pts
@@ -757,16 +715,6 @@
 			(type default)
 		)
 		(uuid "79cf0193-7a52-4931-83f0-c4661352515e")
-	)
-	(wire
-		(pts
-			(xy 130.81 163.83) (xy 146.05 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a4d42b6-abb7-47f4-86f3-b2862998b060")
 	)
 	(wire
 		(pts
@@ -950,16 +898,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 156.21) (xy 146.05 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af13a829-8fd5-452c-a210-c897a079e6f5")
-	)
-	(wire
-		(pts
 			(xy 58.42 27.94) (xy 74.93 27.94)
 		)
 		(stroke
@@ -1000,7 +938,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 184.15) (xy 134.62 166.37)
+			(xy 134.62 124.46) (xy 134.62 184.15)
 		)
 		(stroke
 			(width 0)
@@ -1080,16 +1018,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 163.83) (xy 130.81 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1623250-49a7-4d99-b431-ed81459fc89f")
-	)
-	(wire
-		(pts
 			(xy 58.42 128.27) (xy 74.93 128.27)
 		)
 		(stroke
@@ -1127,16 +1055,6 @@
 			(type default)
 		)
 		(uuid "e0e56e7a-fae7-4c01-9f18-ce8a8ad081ee")
-	)
-	(wire
-		(pts
-			(xy 134.62 166.37) (xy 134.62 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5e991ef-5b19-490b-8fce-d9a115392f35")
 	)
 	(wire
 		(pts
@@ -2380,46 +2298,6 @@
 			)
 			(uuid "8e11fe04-616f-4fed-880f-ce14cb0da21b")
 		)
-		(pin "DCMI_D[0..7]" bidirectional
-			(at 125.73 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "03f6329b-41dd-492a-be14-4131a98fc7a7")
-		)
-		(pin "DCMI_PIXCLK" output
-			(at 125.73 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a18c64f7-5fd4-4cf9-9390-d30c503f801a")
-		)
-		(pin "DCMI_HSYNC" input
-			(at 125.73 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "e072b3eb-ef78-439f-ba1a-6eb80dabb158")
-		)
-		(pin "DCMI_VSYNC" input
-			(at 125.73 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "532fbfaa-c0b6-491a-84d3-4734479d6cb8")
-		)
 		(pin "USB_D+" bidirectional
 			(at 125.73 135.89 0)
 			(effects
@@ -2650,6 +2528,16 @@
 			)
 			(uuid "7347cd6c-2e41-4923-82ed-f27e5eacc449")
 		)
+		(pin "VBUS_EN" output
+			(at 125.73 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "19bbad61-6246-4d0c-8d59-3eb204e335a2")
+		)
 		(instances
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f"
@@ -2856,7 +2744,7 @@
 	)
 	(sheet
 		(at 146.05 133.35)
-		(size 29.21 7.62)
+		(size 29.21 15.24)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2876,7 +2764,7 @@
 			)
 		)
 		(property "Sheetfile" "usb.kicad_sch"
-			(at 146.05 141.5546 0)
+			(at 146.05 149.1746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2903,6 +2791,36 @@
 				(justify left)
 			)
 			(uuid "a63c4383-3d35-40d7-aa8c-4bce549d8142")
+		)
+		(pin "VBUS_SENS" input
+			(at 175.26 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c3e7843-919f-48ca-a703-894ff341ba6b")
+		)
+		(pin "USB_OVCR" input
+			(at 175.26 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "2dfce593-3c5f-4344-95fd-14a684b2ebbd")
+		)
+		(pin "USB_PWR_EN" input
+			(at 146.05 140.97 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b406c404-d348-4aa2-8101-9babf41f592c")
 		)
 		(instances
 			(project "chroma-pixel-zeta"
@@ -3299,8 +3217,8 @@
 		)
 	)
 	(sheet
-		(at 146.05 147.066)
-		(size 27.94 28.194)
+		(at 146.05 156.21)
+		(size 27.94 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -3311,7 +3229,7 @@
 		)
 		(uuid "b5f70f33-fd9e-4039-a725-1bb5dac35287")
 		(property "Sheetname" "DCMI"
-			(at 146.05 146.3544 0)
+			(at 146.05 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3327,66 +3245,6 @@
 				)
 				(justify left top)
 			)
-		)
-		(pin "DCMI_HSYNC" output
-			(at 146.05 153.67 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "75543ad6-ed08-4cd1-8200-300017756fb2")
-		)
-		(pin "DCMI_PIXCLK" input
-			(at 146.05 151.13 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a8b868b6-77f4-4778-b378-c3b06caf2613")
-		)
-		(pin "DCMI_D[0..7]" bidirectional
-			(at 146.05 161.29 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "c1bfb50d-e58f-4d2e-8bfb-a019ed728f68")
-		)
-		(pin "DCMI_VSYNC" output
-			(at 146.05 156.21 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "398f1b49-858d-44a4-acce-995aa7e16696")
-		)
-		(pin "CAM_SCL" input
-			(at 146.05 163.83 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "771feb71-1f25-4a6b-8ebe-753cff9f78b8")
-		)
-		(pin "CAM_SDA" bidirectional
-			(at 146.05 166.37 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "82ef16f3-6c5d-458f-8299-363aff0c4305")
 		)
 		(instances
 			(project "chroma-pixel-zeta"

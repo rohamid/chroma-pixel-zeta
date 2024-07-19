@@ -12,4 +12,5 @@
   (lib (name "TF-115")(type "KiCad")(uri "${KIPRJMOD}/lib/TF-115.pretty")(options "")(descr ""))
   (lib (name "STMPS2141STR")(type "KiCad")(uri "${KIPRJMOD}/lib/STMPS2141STR/STMPS2141STR.pretty")(options "")(descr ""))
   (lib (name "Audio-jack-3_5mm-custom")(type "KiCad")(uri "${KIPRJMOD}/lib/Audio-jack-3_5mm-custom.pretty")(options "")(descr ""))
+  (lib (name "FPC-custom")(type "KiCad")(uri "${KIPRJMOD}/lib/FPC-custom.pretty")(options "")(descr ""))
 )

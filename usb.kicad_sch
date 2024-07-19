@@ -3350,7 +3350,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 121.92) (xy 109.22 123.19)
+			(xy 109.22 128.27) (xy 109.22 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3760,7 +3760,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 113.03) (xy 109.22 114.3)
+			(xy 109.22 113.03) (xy 109.22 120.65)
 		)
 		(stroke
 			(width 0)
@@ -5486,7 +5486,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 109.22 118.11 0)
+		(at 109.22 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5495,7 +5495,7 @@
 		(fields_autoplaced yes)
 		(uuid "56554ec8-4ec0-43e7-b1be-4b94165a9a6f")
 		(property "Reference" "C63"
-			(at 113.03 116.8399 0)
+			(at 113.03 123.1899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5503,8 +5503,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 113.03 119.3799 0)
+		(property "Value" "4u7/0805"
+			(at 113.03 125.7299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5513,7 +5513,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 110.1852 121.92 0)
+			(at 110.1852 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5522,7 +5522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5531,7 +5531,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5540,7 +5540,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C98192"
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5549,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5558,7 +5558,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5567,7 +5567,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5576,7 +5576,7 @@
 			)
 		)
 		(property "Manufacturer_Name" ""
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5585,7 +5585,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" ""
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5594,7 +5594,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5603,7 +5603,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 109.22 118.11 0)
+			(at 109.22 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5628,7 +5628,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 109.22 123.19 0)
+		(at 109.22 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5637,7 +5637,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bc6d724-be11-4235-b03c-2e66c07dc3d5")
 		(property "Reference" "#PWR0143"
-			(at 109.22 129.54 0)
+			(at 109.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5646,7 +5646,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 128.27 0)
+			(at 109.22 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5654,7 +5654,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 123.19 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5663,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 123.19 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5672,7 +5672,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 123.19 0)
+			(at 109.22 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6475,7 @@
 		(at 132.08 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6517,6 +6517,15 @@
 			)
 		)
 		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 132.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1974498"
 			(at 132.08 97.79 0)
 			(effects
 				(font

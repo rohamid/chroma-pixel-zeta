@@ -245,6 +245,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic_MountingPin:Conn_01x06_MountingPin"
 			(pin_names
 				(offset 1.016) hide)
@@ -4559,6 +4661,12 @@
 		)
 	)
 	(junction
+		(at 116.84 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "094735de-0e95-4134-898a-f93b36d5d86e")
+	)
+	(junction
 		(at 46.99 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4575,6 +4683,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26ae93ef-0124-4b2f-a6ea-cbb4b1f263d0")
+	)
+	(junction
+		(at 102.87 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "33698385-1924-4584-9195-47cb9af8b7d0")
 	)
 	(junction
 		(at 80.01 36.83)
@@ -4641,12 +4755,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1c8222f-5fec-4a30-89f1-c6d6ab88c43a")
-	)
-	(junction
-		(at 59.69 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be936768-e8c1-4838-a435-a7b6f9d2f797")
 	)
 	(junction
 		(at 227.33 139.7)
@@ -5066,6 +5174,16 @@
 		)
 		(uuid "0e73e1bf-b017-4f77-b100-968489d6e6fc")
 	)
+	(wire
+		(pts
+			(xy 119.38 87.63) (xy 119.38 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f2b7ae3-494d-4405-a387-bf347a9b5aa5")
+	)
 	(bus
 		(pts
 			(xy 217.17 73.66) (xy 223.52 73.66)
@@ -5248,7 +5366,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 187.96) (xy 59.69 186.69)
+			(xy 53.34 177.8) (xy 53.34 187.96)
 		)
 		(stroke
 			(width 0)
@@ -6048,13 +6166,23 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 111.76) (xy 106.68 111.76)
+			(xy 106.68 111.76) (xy 116.84 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "7a410777-6735-4356-8aa8-964bbf8a21c3")
+	)
+	(wire
+		(pts
+			(xy 116.84 106.68) (xy 116.84 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c67d45a-c868-4cc6-b5c6-ae49bb7edf21")
 	)
 	(wire
 		(pts
@@ -6065,26 +6193,6 @@
 			(type default)
 		)
 		(uuid "7cc81dfa-cc1b-4471-bfd1-f81de68d5b7c")
-	)
-	(wire
-		(pts
-			(xy 53.34 177.8) (xy 53.34 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d9b4589-29ac-4ce1-ac22-82bd09cdeaf1")
-	)
-	(wire
-		(pts
-			(xy 53.34 186.69) (xy 59.69 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e5d1f2c-dcd6-467d-b4d5-53de673d3313")
 	)
 	(wire
 		(pts
@@ -6508,6 +6616,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 143.51) (xy 66.04 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aeb665a1-921c-4aa5-a4a7-8daf3a8b627d")
+	)
+	(wire
+		(pts
 			(xy 229.87 146.05) (xy 229.87 147.32)
 		)
 		(stroke
@@ -6555,6 +6673,16 @@
 			(type default)
 		)
 		(uuid "b1868af6-d207-451b-8876-c75f03215770")
+	)
+	(wire
+		(pts
+			(xy 102.87 87.63) (xy 102.87 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e94822-64a6-4265-9df4-83ebd2d76cb6")
 	)
 	(wire
 		(pts
@@ -6818,16 +6946,6 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 186.69) (xy 59.69 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca0cb6d9-fe75-47a4-ad77-2ee49d12a364")
-	)
-	(wire
-		(pts
 			(xy 116.84 148.59) (xy 116.84 149.86)
 		)
 		(stroke
@@ -6975,6 +7093,16 @@
 			(type default)
 		)
 		(uuid "d91dcaf9-f455-44f4-9995-8c5572fa732b")
+	)
+	(wire
+		(pts
+			(xy 66.04 142.24) (xy 59.69 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a48afb-0930-46c0-827e-b2ff5baa1b53")
 	)
 	(wire
 		(pts
@@ -9401,7 +9529,7 @@
 		(uuid "453466e5-7c17-499b-89c4-4487cdc8891c")
 	)
 	(label "LED_K"
-		(at 116.84 111.76 180)
+		(at 115.57 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9522,7 +9650,7 @@
 		(uuid "95c465a5-83f3-45cc-9262-443a2d772964")
 	)
 	(label "LED_A"
-		(at 102.87 92.71 180)
+		(at 101.6 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10514,7 +10642,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 59.69 187.96 0)
+		(at 53.34 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10523,7 +10651,7 @@
 		(fields_autoplaced yes)
 		(uuid "13c79777-fb84-47bd-b532-282f6dcea287")
 		(property "Reference" "#PWR089"
-			(at 59.69 194.31 0)
+			(at 53.34 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +10660,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 59.69 193.04 0)
+			(at 53.34 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10540,7 +10668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 59.69 187.96 0)
+			(at 53.34 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10549,7 +10677,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 59.69 187.96 0)
+			(at 53.34 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10558,7 +10686,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 187.96 0)
+			(at 53.34 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11728,6 +11856,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_4")
+		(lib_id "power:GND")
+		(at 66.04 143.51 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "383b1bcf-2577-4e93-ba63-8c69ba083784")
+		(property "Reference" "#PWR0146"
+			(at 66.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 66.04 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcca3758-80da-4d42-97ca-a087eb0526d0")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+3V3_1")
 		(lib_id "power:+3V3")
 		(at 116.84 148.59 0)
@@ -11789,6 +11984,73 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 119.38 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b8d0ccf-53b2-4a5a-945a-b47c313816b4")
+		(property "Reference" "#PWR0167"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 119.38 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d399ef4-5ffa-476b-8506-7b204c4e78b6")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -12193,16 +12455,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x14_MountingPin")
-		(at 59.69 162.56 0)
+		(at 59.69 165.1 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "574b799c-be84-49cc-939f-c647631161af")
 		(property "Reference" "J4"
-			(at 62.23 162.9155 0)
+			(at 62.23 164.7445 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12211,7 +12473,7 @@
 			)
 		)
 		(property "Value" "SPI_LCD"
-			(at 62.23 165.4555 0)
+			(at 62.23 162.2045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12219,8 +12481,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:TE_1-84953-4_1x14-1MP_P1.0mm_Horizontal"
-			(at 59.69 162.56 0)
+		(property "Footprint" "FPC-custom:FPC-14P-1mm-XUNPU"
+			(at 59.69 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12229,7 +12491,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 162.56 0)
+			(at 59.69 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12238,7 +12500,16 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x14, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 59.69 162.56 0)
+			(at 59.69 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C19269357"
+			(at 59.69 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12711,6 +12982,73 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 102.87 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fca7f6e-a6b3-40be-a136-35b4c2c6af90")
+		(property "Reference" "TP5"
+			(at 105.41 83.0579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 105.41 85.5979 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 102.87 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "862e1c0f-8dc9-46bb-a036-620594c81688")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -14110,7 +14448,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C19666 "
+		(property "JLCPCB Part #" "C19666"
 			(at 147.32 161.29 0)
 			(effects
 				(font
@@ -14278,6 +14616,73 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c420ebb-e98f-498f-a65f-8ca368ed7a74")
+		(property "Reference" "TP6"
+			(at 119.38 102.1079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 119.38 104.6479 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d92e06f5-d48e-4634-9de4-b8c021d9bf26")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -17404,6 +17809,73 @@
 			(project "chroma-pixel-zeta"
 				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
 					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 119.38 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f248f8d8-5c13-4676-9818-e09726db7c6c")
+		(property "Reference" "TP7"
+			(at 121.92 81.7879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 121.92 84.3279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 119.38 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "195b85b4-a63b-45c2-833a-70a47f296a94")
+		)
+		(instances
+			(project "chroma-pixel-zeta"
+				(path "/70094798-b7e4-48a4-a512-b8f48be18f9f/99abf84f-89dd-4209-b43f-cdbcbe391aaa"
+					(reference "TP7")
 					(unit 1)
 				)
 			)
